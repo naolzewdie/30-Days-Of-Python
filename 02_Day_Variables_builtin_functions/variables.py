@@ -30,7 +30,11 @@ print('Person information: ', person_info)
 
 # Declaring multiple variables in one line
 
+
+
 first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True
+
+is_greater = len(first_name) > len(last_name)
 
 print(first_name, last_name, country, age, is_married)
 print('First name:', first_name)
